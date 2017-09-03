@@ -12,6 +12,10 @@ body {
     flex-direction: column;
 }
 
+body.index a.index, body.page1 a.page1, body.page2 a.page2 {
+    text-decoration: none;
+}
+
 a:link, a:visited, a:active {
     color: white;
 }
@@ -27,7 +31,7 @@ img {
 
 img:hover {
     border-style: solid;
-    border-color: green;
+    border-color: #301818;
 }
 
 #header {
@@ -40,6 +44,16 @@ img:hover {
     border: 3px solid #301818;
 }
 
+#text-content {
+    width:70%;
+    border: 3px solid #301818;
+    color: #301818;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    padding: 20px;
+}
+
 .content {
     flex: 1;
 }
@@ -49,9 +63,10 @@ img:hover {
     background-color: #cfbfb0;
     display: flex;
     margin-top: 100px;
-    color: #4a2626;
+    color: #301818;
     font-size: 70px;
     justify-content: center;
+    border-top: 3px solid #301818;
 }
 
 #title {
